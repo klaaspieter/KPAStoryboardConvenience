@@ -34,4 +34,10 @@ static NSBundle *mainStoryboardBundle;
     return NSStringFromClass(theClass);
 }
 
+- (UIViewController *)instantiateViewControllerForClass:(Class)theClass;
+{
+    NSString *identifier = [self.class storyboardIdentifierForClass:theClass];
+    return [self instantiateViewControllerWithIdentifier:identifier];
+}
+
 @end

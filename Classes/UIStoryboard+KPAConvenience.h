@@ -15,5 +15,6 @@
 + (UIStoryboard *)mainStoryboard;
 
 + (NSString *)storyboardIdentifierForClass:(Class)theClass;
+- (UIViewController *)instantiateViewControllerForClass:(Class)theClass;
 
 @end

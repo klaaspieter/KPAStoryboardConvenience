@@ -15,6 +15,11 @@ describe(@"UIstoryboard+KPAConvience", ^{
         NSString *identifier = [UIStoryboard storyboardIdentifierForClass:[TestViewController class]];
         expect(identifier).to.equal(@"TestViewController");
     });
+
+    it(@"can instantiate view controllers by class", ^{
+        UIViewController *viewController = [[UIStoryboard mainStoryboard] instantiateViewControllerForClass:[TestViewController class]];
+        expect(viewController).to.beKindOf([TestViewController class]);
+    });
 });
 
 SpecEnd
