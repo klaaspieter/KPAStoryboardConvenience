@@ -17,4 +17,6 @@
 + (NSString *)storyboardIdentifierForClass:(Class)theClass;
 - (UIViewController *)instantiateViewControllerForClass:(Class)theClass;
 
++ (NSString *)segueIdentifierForClass:(Class)theClass;
+
 @end

@@ -40,4 +40,9 @@ static NSBundle *mainStoryboardBundle;
     return [self instantiateViewControllerWithIdentifier:identifier];
 }
 
++ (NSString *)segueIdentifierForClass:(Class)theClass;
+{
+    return [NSStringFromClass(theClass) stringByAppendingString:@"Segue"];
+}
+
 @end

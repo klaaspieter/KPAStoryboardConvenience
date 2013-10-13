@@ -20,6 +20,11 @@ describe(@"UIstoryboard+KPAConvience", ^{
         UIViewController *viewController = [[UIStoryboard mainStoryboard] instantiateViewControllerForClass:[TestViewController class]];
         expect(viewController).to.beKindOf([TestViewController class]);
     });
+
+    it(@"knows segue identifier for a class", ^{
+        NSString *segueIdentifier = [UIStoryboard segueIdentifierForClass:[TestViewController class]];
+        expect(segueIdentifier).to.equal(@"TestViewControllerSegue");
+    });
 });
 
 SpecEnd
