@@ -10,4 +10,8 @@
 
 @interface UIStoryboard (KPAConvenience)
 
++ (void)setMainStoryboardName:(NSString *)storyboardName;
++ (void)setMainStoryboardName:(NSString *)storyboardName bundle:(NSBundle *)bundle;
++ (UIStoryboard *)mainStoryboard;
+
 @end

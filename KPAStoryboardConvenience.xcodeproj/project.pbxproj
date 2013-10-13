@@ -14,6 +14,8 @@
 		A1206FB81804B3EF0078BB5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1206FB61804B3EF0078BB5E /* InfoPlist.strings */; };
 		A1206FC61804B43C0078BB5E /* UIStoryboard+KPAConvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = A1206FC51804B43C0078BB5E /* UIStoryboard+KPAConvenience.m */; };
 		A1E5F752180B169F00EDC836 /* UIStoryboard_KPAConvenienceSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A1206FC71804B4790078BB5E /* UIStoryboard_KPAConvenienceSpec.m */; };
+		A1E5F753180B184D00EDC836 /* UIStoryboard+KPAConvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = A1206FC51804B43C0078BB5E /* UIStoryboard+KPAConvenience.m */; };
+		A1E5F755180B186900EDC836 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1E5F754180B186900EDC836 /* Main.storyboard */; };
 		D883F1682C3F4813A435586A /* libPods-Specs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D7F7F53087431C878A49C7 /* libPods-Specs.a */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +56,7 @@
 		A1206FC51804B43C0078BB5E /* UIStoryboard+KPAConvenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIStoryboard+KPAConvenience.m"; path = "Classes/UIStoryboard+KPAConvenience.m"; sourceTree = SOURCE_ROOT; };
 		A1206FC71804B4790078BB5E /* UIStoryboard_KPAConvenienceSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIStoryboard_KPAConvenienceSpec.m; sourceTree = "<group>"; };
 		A1206FCB1804B5770078BB5E /* SpecHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpecHelper.h; sourceTree = "<group>"; };
+		A1E5F754180B186900EDC836 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		DF15A7E5F92244CC97B74E40 /* Pods-Specs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.xcconfig"; path = "Pods/Pods-Specs.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -145,6 +148,7 @@
 				A1206FB61804B3EF0078BB5E /* InfoPlist.strings */,
 				A1206FBB1804B3EF0078BB5E /* Specs-Prefix.pch */,
 				A1206FCB1804B5770078BB5E /* SpecHelper.h */,
+				A1E5F754180B186900EDC836 /* Main.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -227,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1206FB81804B3EF0078BB5E /* InfoPlist.strings in Resources */,
+				A1E5F755180B186900EDC836 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1E5F752180B169F00EDC836 /* UIStoryboard_KPAConvenienceSpec.m in Sources */,
+				A1E5F753180B184D00EDC836 /* UIStoryboard+KPAConvenience.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
