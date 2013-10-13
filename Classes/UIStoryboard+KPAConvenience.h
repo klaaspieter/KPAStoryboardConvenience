@@ -14,4 +14,6 @@
 + (void)setMainStoryboardName:(NSString *)storyboardName bundle:(NSBundle *)bundle;
 + (UIStoryboard *)mainStoryboard;
 
++ (NSString *)storyboardIdentifierForClass:(Class)theClass;
+
 @end

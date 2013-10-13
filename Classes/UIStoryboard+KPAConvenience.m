@@ -29,4 +29,9 @@ static NSBundle *mainStoryboardBundle;
     return [self storyboardWithName:mainStoryboardName bundle:mainStoryboardBundle];
 }
 
++ (NSString *)storyboardIdentifierForClass:(Class)theClass;
+{
+    return NSStringFromClass(theClass);
+}
+
 @end

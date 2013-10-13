@@ -13,8 +13,9 @@
 		A1206FB21804B3EF0078BB5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1206F6D1804B3420078BB5E /* UIKit.framework */; };
 		A1206FB81804B3EF0078BB5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1206FB61804B3EF0078BB5E /* InfoPlist.strings */; };
 		A1206FC61804B43C0078BB5E /* UIStoryboard+KPAConvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = A1206FC51804B43C0078BB5E /* UIStoryboard+KPAConvenience.m */; };
+		A1DD511A180B1B5F00465924 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DD5119180B1B5F00465924 /* TestViewController.m */; };
+		A1DD511B180B1BE500465924 /* UIStoryboard+KPAConvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = A1206FC51804B43C0078BB5E /* UIStoryboard+KPAConvenience.m */; };
 		A1E5F752180B169F00EDC836 /* UIStoryboard_KPAConvenienceSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A1206FC71804B4790078BB5E /* UIStoryboard_KPAConvenienceSpec.m */; };
-		A1E5F753180B184D00EDC836 /* UIStoryboard+KPAConvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = A1206FC51804B43C0078BB5E /* UIStoryboard+KPAConvenience.m */; };
 		A1E5F755180B186900EDC836 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1E5F754180B186900EDC836 /* Main.storyboard */; };
 		D883F1682C3F4813A435586A /* libPods-Specs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D7F7F53087431C878A49C7 /* libPods-Specs.a */; };
 /* End PBXBuildFile section */
@@ -56,6 +57,8 @@
 		A1206FC51804B43C0078BB5E /* UIStoryboard+KPAConvenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIStoryboard+KPAConvenience.m"; path = "Classes/UIStoryboard+KPAConvenience.m"; sourceTree = SOURCE_ROOT; };
 		A1206FC71804B4790078BB5E /* UIStoryboard_KPAConvenienceSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIStoryboard_KPAConvenienceSpec.m; sourceTree = "<group>"; };
 		A1206FCB1804B5770078BB5E /* SpecHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpecHelper.h; sourceTree = "<group>"; };
+		A1DD5118180B1B5F00465924 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		A1DD5119180B1B5F00465924 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		A1E5F754180B186900EDC836 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		DF15A7E5F92244CC97B74E40 /* Pods-Specs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.xcconfig"; path = "Pods/Pods-Specs.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -149,6 +152,8 @@
 				A1206FBB1804B3EF0078BB5E /* Specs-Prefix.pch */,
 				A1206FCB1804B5770078BB5E /* SpecHelper.h */,
 				A1E5F754180B186900EDC836 /* Main.storyboard */,
+				A1DD5118180B1B5F00465924 /* TestViewController.h */,
+				A1DD5119180B1B5F00465924 /* TestViewController.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -283,8 +288,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1DD511A180B1B5F00465924 /* TestViewController.m in Sources */,
+				A1DD511B180B1BE500465924 /* UIStoryboard+KPAConvenience.m in Sources */,
 				A1E5F752180B169F00EDC836 /* UIStoryboard_KPAConvenienceSpec.m in Sources */,
-				A1E5F753180B184D00EDC836 /* UIStoryboard+KPAConvenience.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
