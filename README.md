@@ -17,9 +17,10 @@ Instantiate your view controllers using:
 
     [[UIStoryboard mainStoryboard] instantiateViewControllerForClass:[MyViewController class]];
 
-You can also directly access the identifier for view controllers and segues:
+You can also directly access the identifiers
 
 - `+ (NSString *)storyboardIdentifierForClass:(Class)theClass;`
 - `+ (NSString *)segueIdentifierForClass:(Class)theClass;`
+- `+ (NSString *)reuseIdentifierForClass:(Class)theClass;`
 
 All usage is documented in the [Spec](https://github.com/klaaspieter/KPAStoryboardConvenience/blob/master/Specs/UIStoryboard_KPAConvenienceSpec.m).
