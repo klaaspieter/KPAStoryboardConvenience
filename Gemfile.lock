@@ -38,3 +38,4 @@ PLATFORMS
 
 DEPENDENCIES
   cocoapods
+  rake
