@@ -30,7 +30,6 @@ describe(@"UIstoryboard+KPAConvience", ^{
     it(@"knows reuse identifier for a class", ^{
         NSString *reuseIdentifier = [UIStoryboard reuseIdentifierForClass:[TestTableViewCell class]];
         expect(reuseIdentifier).to.equal(@"TestTableViewCellReuseIdentifier");
-        
     });
 });
 
