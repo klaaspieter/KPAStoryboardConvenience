@@ -13,11 +13,11 @@ Add the following to your [Podfile](http://docs.cocoapods.org/podfile.html):
 Set the name of your default storyboard using `setMainStoryboardName:`
 Now access your storyboard anywhere in your app using `mainStoryboard`. 
 
-Now instantiate your storyboards using:
+Instantiate your view controllers using:
 
     [[UIStoryboard mainStoryboard] instantiateViewControllerForClass:[MyViewController class]];
 
-You can also directly access the identifier for view controllers and segues using:
+You can also directly access the identifier for view controllers and segues:
 
 - `+ (NSString *)storyboardIdentifierForClass:(Class)theClass;`
 - `+ (NSString *)segueIdentifierForClass:(Class)theClass;`
