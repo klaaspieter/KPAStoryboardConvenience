@@ -45,4 +45,9 @@ static NSBundle *mainStoryboardBundle;
     return [NSStringFromClass(theClass) stringByAppendingString:@"Segue"];
 }
 
++ (NSString *)reuseIdentifierForClass:(Class)theClass;
+{
+    return [NSStringFromClass(theClass) stringByAppendingString:@"ReuseIdentifier"];
+}
+
 @end

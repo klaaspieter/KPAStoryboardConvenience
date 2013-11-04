@@ -2,6 +2,7 @@
 
 #import "UIStoryboard+KPAConvenience.h"
 #import "TestViewController.h"
+#import "TestTableViewCell.h"
 
 SpecBegin(UIStoryboard_KPAConvenience)
 
@@ -24,6 +25,12 @@ describe(@"UIstoryboard+KPAConvience", ^{
     it(@"knows segue identifier for a class", ^{
         NSString *segueIdentifier = [UIStoryboard segueIdentifierForClass:[TestViewController class]];
         expect(segueIdentifier).to.equal(@"TestViewControllerSegue");
+    });
+
+    it(@"knows reuse identifier for a class", ^{
+        NSString *reuseIdentifier = [UIStoryboard reuseIdentifierForClass:[TestTableViewCell class]];
+        expect(reuseIdentifier).to.equal(@"TestTableViewCellReuseIdentifier");
+        
     });
 });
 

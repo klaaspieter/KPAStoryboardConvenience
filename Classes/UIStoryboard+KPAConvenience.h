@@ -19,4 +19,6 @@
 
 + (NSString *)segueIdentifierForClass:(Class)theClass;
 
++ (NSString *)reuseIdentifierForClass:(Class)theClass;
+
 @end
