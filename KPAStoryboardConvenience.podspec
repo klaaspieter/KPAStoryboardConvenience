@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '5.0'
 
-  s.source       = { :git => "https://github.com/klaaspieter/KPAStoryboardConvenience.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/klaaspieter/KPAStoryboardConvenience.git", :tag => s.version.to_s }
 
   s.source_files  = 'Classes', 'Classes/**/*.{h,m}'
   s.requires_arc = true
